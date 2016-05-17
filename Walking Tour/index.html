@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Walking Tour of Historic Fincastle</title>
+  <!-- Load JS CDN's and CSS Stylesheets -->
+ <script src='https://api.mapbox.com/mapbox.js/v2.3.0/mapbox.js'></script>
+ <script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+ <script src="https://use.fontawesome.com/ca3b747b05.js"></script>
+ <script src="https://domoritz.github.io/leaflet-locatecontrol/dist/L.Control.Locate.min.js" charset="utf-8"></script>
+ <link href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" rel="stylesheet" type='text/css'>
+ <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+ <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel='stylesheet' type="text/css">
+ <link href='https://api.mapbox.com/mapbox.js/v2.3.0/mapbox.css' rel='stylesheet' type='text/css'>
+ <link rel="stylesheet" href="https://domoritz.github.io/leaflet-locatecontrol/dist/L.Control.Locate.min.css" />
+ <link rel="stylesheet" href="css/pagestyle.css">
+ <link rel="stylesheet" href="css/leaflet.extra-markers.min.css">
+ 
+</head>
+<body>
+<div class="container col-xs-12">
+    <div class="row">
+      <div class="main-page">
+        <div class="col-xs-3" id="sidebar">
+          <div class="sidebar-stoplocation">
+            <p id="location"></p></div>
+          <div class="sidebar-header" id="header">Walking Tour of Historic Fincastle</div>
+          <div class="sidebar-picture"><img src="http://www.botetourtlawyers.com/uploads/1/0/7/5/10751275/4079796.jpg?324" id="location-picture"></div>
+          <div class="sidebar-description" id="description">
+            <p style="font-size: 1.25vmax; text-align: center;">Come explore the beautiful Historic District of Downtown Fincastle nestled in the heart of the Blue Ridge Mountains!</p>
+          </div>
+        </div>
+      </div>
+      <div id="map" class="col-xs-12 row-height map-border"></div>
+    </div>
+
+<!-- <script src="https://cdn.rawgit.com/beattyre/WebMapTest/gh-pages/historic_sites.js"></script> -->
+<script src="js/map.js"></script>
+<script src="js/leaflet.extra-markers.js"></script>
+
+    </script>
+  </div>
+  </div>
+</html>

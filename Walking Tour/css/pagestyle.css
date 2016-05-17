@@ -1,0 +1,112 @@
+ @media (max-width:990px) {
+.container {
+  border: 2.5px solid rgb(190, 177, 130); }
+  
+#sidebar {
+  opacity: .8;
+  background-color: rgb(66, 36, 12);
+  height: 95vmax;
+  width: 30vmax;
+  position: absolute;
+  z-index: 5000; }
+  
+#location {
+  text-transform: capitalize;
+  color: rgb(190, 177, 130);
+  text-align: left;
+  font-size: 1.25vmax;
+  font-weight: 700; }		
+  
+#header {
+  text-transform: uppercase;
+  text-align: left;
+  color: rgb(118, 170, 194);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.75vmax
+  font-weight: 700; }
+#BuildingHeader {
+  font-size: 1.25vmax;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+#location-picture{
+  width: 100%; }
+  
+#description{
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(190,177,130);
+  margin: 15px, 10px, 15px, 5px;
+  padding: 5px 5px 5px 5px;
+  font-style: italic;
+  font-size: 1.25vmax; 
+  font-weight: 400; }
+  
+.row-height{
+  height: 95vmax;}
+}
+@media (min-width:990px) {
+.container {
+  border: 5px solid rgb(190, 177, 130); }
+  
+/*#title-bar {
+  opacity: .8;
+  background-color: rgb(66, 36, 12);
+  height: 150px;
+} */
+#location-picture{
+  height: 90%;
+  width: 90%; }
+  
+.sidebar-picture {
+  margin-top: 20px;
+  margin-bottom: 30px; }
+  
+#header {
+  text-transform: uppercase;
+  text-align: left;
+  color: rgb(118, 170, 194);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2vmax;
+  font-weight: 700; }
+#BuildingHeader {
+  font-size: 1.25vmax;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+  
+#description {
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(190,177,130);
+  margin: 15px, 10px, 15px, 5px;
+  padding: 5px 5px 5px 5px;
+  font-style: italic;
+  font-size: .75vmax; 
+  font-weight: 400; }
+  
+#sidebar {
+  opacity: .8;
+  background-color: rgb(66, 36, 12);
+  height: 100%; 
+  width: 20%;
+  position: absolute;
+  z-index: 5000; }
+  
+.row-height{
+  height: 100vmin; }
+  
+h2 {
+  color: rgb(190, 177, 130);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-align: left;
+  font-size: 2.5em;
+  position: top;
+  margin-top: 30px; }
+#location {
+  text-transform: capitalize;
+  font-family: 'Monterserrat', sans-serif;
+  font-weight: 700;
+  color: rgb(190, 177, 130);
+  text-align: left;
+  font-size: 1vmax; }		
+}
